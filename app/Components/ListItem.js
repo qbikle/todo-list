@@ -14,9 +14,11 @@ const CheckboxItem = ({ text, isChecked, onChange }) => {
         type="checkbox"
         checked={isChecked}
         onChange={onChange}
-        className="w-4 h-4 mr-4 focus:ring-1 focus:ring-opacity-50 focus:ring-blue-500"
+        className="w-4 h-4 mr-4 focus:ring-1 focus:ring-opacity-50 focus:ring-primary-500 focus:outline-none"
       />
-      <motion.span className="text text-white/90 text-xl">{text}</motion.span>
+      <span style={{ textDecoration: isChecked ? "line-through" : "none" }}>
+        {text}
+      </span>
     </motion.div>
   );
 };

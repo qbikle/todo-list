@@ -10,8 +10,8 @@ const Title = () => {
       transition={{ duration: 0.5 }}
     >
       <motion.h1
-        className="text-5xl font-semibold text-white/95"
-        initial={{ y: 20 }}
+        className="text-5xl font-semibold"
+        initial={{ y: -20 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
       >

@@ -40,6 +40,9 @@ const TodoList = ({ todos }) => {
         >
           Previous
         </button>
+        <div className="mt-4 text-center">
+          Page {currentPage} of {totalPages}
+        </div>
         <button
           onClick={nextPage}
           disabled={currentPage === totalPages}
@@ -52,9 +55,6 @@ const TodoList = ({ todos }) => {
         >
           Next
         </button>
-      </div>
-      <div className="mt-4 text-center">
-        Page {currentPage} of {totalPages}
       </div>
     </div>
   );
