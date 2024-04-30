@@ -15,6 +15,7 @@ const CheckboxItem = ({ text, isChecked, onChange }) => {
         checked={isChecked}
         onChange={onChange}
         className="w-4 h-4 mr-4 focus:ring-1 focus:ring-opacity-50 focus:ring-primary-500 focus:outline-none"
+        readOnly={true}
       />
       <span style={{ textDecoration: isChecked ? "line-through" : "none" }}>
         {text}
