@@ -2,6 +2,7 @@
 A simple To-Do List that has been contanarized and displayed on landing page.
 
 List of modules used for frontend:
+
     1. Animations - Framer Motion
     2. Components - DaisyUI
     3. Styling - Tailwind
